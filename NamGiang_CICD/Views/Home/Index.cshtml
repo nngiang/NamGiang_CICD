@@ -2,94 +2,69 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="container">
-    <h2>Basic Tablee</h2>
-    <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Email</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>John</td>
-                <td>Doe</td>
-                <td>john@example.com</td>
-            </tr>
-            <tr>
-                <td>Mary</td>
-                <td>Moe</td>
-                <td>mary@example.com</td>
-            </tr>
-            <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="container">
-    <h2>Basic Table</h2>
-    <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Email</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>John</td>
-                <td>Doe</td>
-                <td>john@example.com</td>
-            </tr>
-            <tr>
-                <td>Mary</td>
-                <td>Moe</td>
-                <td>mary@example.com</td>
-            </tr>
-            <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="container">
-    <h2>Basic Table</h2>
-    <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Email</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>John</td>
-                <td>Doe</td>
-                <td>john@example.com</td>
-            </tr>
-            <tr>
-                <td>Mary</td>
-                <td>Moe</td>
-                <td>mary@example.com</td>
-            </tr>
-            <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-            </tr>
-        </tbody>
-    </table>
+<div class="nav">
+    <ul class="nav-list">
+        <li class="nav-item">Giới thiệu</li>
+        <li class="nav-item">Kết nối</li>
+        <li class="nav-item">Tải ứng dụng</li>
+    </ul>
+    <ul class="nav-list">
+        <li class="nav-item">Đăng kí</li>
+        <li class="nav-item">Đăng nhập</li>
+    </ul>
 </div>
 
+<!-- Form layout -->
+<div class="form-container">
+    <form action="" class="form">
+        <div class="form__row">
+            <label class="form__label" for="name">Name:</label>
+            <input class="form__input" type="text">
+        </div>
+        <div class="form__row">
+            <label class="form__label" for="password">Password:</label>
+            <input class="form__input" type="text">
+        </div>
+    </form>
+</div>
+
+<!-- Column layout -->
+<div class="column-layout">
+    <div class="column-item sidebar-one">
+        <h2>Sidebar One</h2>
+        <p>Vị trí này khá tốt nếu bạn muốn khách hàng nhanh chóng để ý và quan tâm đến nội dung Widget trên Sidebar của mình trước. Bởi theo thói quen mắt người Việt Nam sẽ nhìn từ trái sang phải, từ trên xuống dưới. Nếu bạn muốn nội dung trên Sidebar nổi bật và được quan tâm đầu tiên thì đây là một lựa chọn hợp lý.</p>
+    </div>
+    <div class="column-item main-column">
+        <h2>Main Column</h2>
+        <p>The content is confined to a three column grid with two main columns and one smaller sidebar.</p>
+        <p>The content below is laid out in a three column grid with two main columns and one smaller side bar.</p>
+        <p> The main columns you need to stay attention to are Proto,  Local Address, and PID/Program name.</p>
+    </div>
+    <div class="column-item sidebar-two">
+        <h2>Sidebar Two</h2>
+        <p>Bạn muốn dẫn dắt người đọc xem nội dung chính trước rồi có thể quan tâm đến những gợi ý bên cạnh sau thì nên chọn cách này. Nội dung chính là thứ khách hàng quan tâm nhấp vào và sau đó họ mới để ý đến những nội dung khác trên Sidebar. Cách này làm khách hàng cảm giác đang tìm đến đúng nội dung mình cần rồi từ đó mới được gợi ý những mục liên quan nên khá dễ chịu và thân thiện.</p>
+    </div>
+</div>
+
+<!-- Feature layout -->
+<div class="feature-layout">
+    <div class="feature-item">
+        <h2>Sidebar One</h2>
+        <p>Vị trí này khá tốt nếu bạn muốn khách hàng nhanh chóng để ý và quan tâm đến nội dung Widget trên Sidebar của mình trước. Bởi theo thói quen mắt người Việt Nam sẽ nhìn từ trái sang phải, từ trên xuống dưới. Nếu bạn muốn nội dung trên Sidebar nổi bật và được quan tâm đầu tiên thì đây là một lựa chọn hợp lý.</p>
+    </div>
+    <div class="feature-item">
+        <h2>Main Column</h2>
+        <p>The content is confined to a three column grid with two main columns and one smaller sidebar.</p>
+        <p>The content below is laid out in a three column grid with two main columns and one smaller side bar.</p>
+        <p> The main columns you need to stay attention to are Proto,  Local Address, and PID/Program name.</p>
+    </div>
+    <div class="feature-item">
+        <h2>Sidebar Two</h2>
+        <p>Bạn muốn dẫn dắt người đọc xem nội dung chính trước rồi có thể quan tâm đến những gợi ý bên cạnh sau thì nên chọn cách này. Nội dung chính là thứ khách hàng quan tâm nhấp vào và sau đó họ mới để ý đến những nội dung khác trên Sidebar. Cách này làm khách hàng cảm giác đang tìm đến đúng nội dung mình cần rồi từ đó mới được gợi ý những mục liên quan nên khá dễ chịu và thân thiện.</p>
+    </div>
+</div>
+
+<!-- Wrap layout -->
+<div class="wrap layout">
+
+</div>
